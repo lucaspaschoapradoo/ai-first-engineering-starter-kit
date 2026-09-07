@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "reviewedAt": "<ISO8601>",
+  "requirements": [],
+  "summary": {
+    "total": 0,
+    "implemented": 0,
+    "tested": 0,
+    "partial": 0,
+    "missing": 0
+  }
+}

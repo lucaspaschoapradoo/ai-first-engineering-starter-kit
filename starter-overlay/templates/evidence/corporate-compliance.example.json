@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "reviewedAt": "<ISO8601>",
+  "mcpConnected": true,
+  "mcpServer": "corporate-knowledge",
+  "queries": [],
+  "standards": [],
+  "capabilities": [],
+  "conflicts": [],
+  "exceptions": [],
+  "noApplicableStandards": false,
+  "noApplicableStandardsRationale": ""
+}

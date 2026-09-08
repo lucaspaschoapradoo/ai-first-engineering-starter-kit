@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "corporate-knowledge": {
+      "type": "http",
+      "url": "${CORPORATE_MCP_URL:-}",
+      "headers": {
+        "Authorization": "Bearer ${CORPORATE_MCP_TOKEN:-}"
+      }
+    }
+  }
+}

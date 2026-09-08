@@ -1,0 +1,85 @@
+corporate_ai_engineering_starter_kit_v1/
+├── README.md
+├── docs/
+│   ├── 01_INSTALLATION_AND_BOOTSTRAP.md
+│   ├── 02_ADMIN_CONFIGURATION.md
+│   ├── 03_BUILDER_USER_MANUAL.md
+│   ├── 04_WORKFLOW_DETAILED.md
+│   ├── 05_MCP_SOURCE_OF_TRUTH.md
+│   ├── 06_CHANGE_IMPACT_ROUTER.md
+│   ├── 07_GOVERNANCE_AND_GATES.md
+│   ├── 08_TROUBLESHOOTING.md
+│   ├── 09_UPGRADE_AND_VERSION_POLICY.md
+│   ├── 10_TRAINING_PLAN.md
+│   └── 11_SOURCES.md
+├── scripts/
+│   ├── CONFIGURE_CHECKLIST.md
+│   └── bootstrap.py
+└── starter-overlay/
+    ├── .ai-engineering/
+    │   └── README.md
+    ├── .claude/
+    │   ├── agents/
+    │   │   ├── adversarial-reviewer.md
+    │   │   ├── architecture-reviewer.md
+    │   │   ├── change-impact-classifier.md
+    │   │   ├── corporate-compliance-reviewer.md
+    │   │   ├── security-reviewer.md
+    │   │   ├── simplicity-reviewer.md
+    │   │   ├── spec-compliance-reviewer.md
+    │   │   └── test-strategy-reviewer.md
+    │   ├── hooks/
+    │   │   └── mark-stale.py
+    │   ├── settings.starter.json
+    │   └── skills/
+    │       ├── adversarial-review/
+    │       │   └── SKILL.md
+    │       ├── change-request/
+    │       │   └── SKILL.md
+    │       ├── code-ready/
+    │       │   └── SKILL.md
+    │       ├── corporate-compliance/
+    │       │   └── SKILL.md
+    │       ├── corporate-context/
+    │       │   └── SKILL.md
+    │       ├── plan-review/
+    │       │   └── SKILL.md
+    │       ├── post-review-rework/
+    │       │   └── SKILL.md
+    │       ├── pre-review-gate/
+    │       │   └── SKILL.md
+    │       ├── run-quality/
+    │       │   └── SKILL.md
+    │       ├── spec-compliance/
+    │       │   └── SKILL.md
+    │       └── test-strategy-review/
+    │           └── SKILL.md
+    ├── .github/
+    │   └── pull_request_template.md
+    ├── .gitignore.append
+    ├── .mcp.starter.json
+    ├── AGENTS.md
+    ├── CLAUDE.md
+    ├── engineering.config.json
+    ├── prompts/
+    │   ├── 00_CONSTITUTION_PROMPT.md
+    │   ├── 01_START_FEATURE.md
+    │   ├── 02_PLAN_REVIEW.md
+    │   ├── 03_IMPLEMENTATION.md
+    │   ├── 04_CHANGE_REQUEST_EXAMPLES.md
+    │   ├── 05_CODEX_REVIEW.md
+    │   └── 06_REWORK.md
+    ├── scripts/
+    │   ├── _feature.py
+    │   ├── clear_stale_after_gates.py
+    │   ├── run_quality.py
+    │   ├── validate_readiness.py
+    │   └── validate_starter.py
+    └── templates/
+        └── evidence/
+            ├── adversarial-review.example.json
+            ├── corporate-compliance.example.json
+            ├── evidence-report.example.md
+            ├── independent-review.example.json
+            ├── spec-compliance.example.json
+            └── test-strategy-review.example.json

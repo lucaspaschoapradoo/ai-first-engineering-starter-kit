@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "configured": false,
+  "workflow": {
+    "mcpRequired": true,
+    "mcpServerName": "corporate-knowledge",
+    "blockCritical": true,
+    "blockHigh": true,
+    "mediumRequiresResolutionOrAcceptance": true,
+    "builderDefaultInteraction": "natural-language",
+    "codeReadyValidator": "python scripts/validate_readiness.py --phase final"
+  },
+  "mcp": {
+    "expectedDomains": [
+      "architecture",
+      "security",
+      "data",
+      "ux",
+      "integration",
+      "testing"
+    ],
+    "approvedDocumentStatuses": [
+      "APPROVED"
+    ],
+    "toolMapping": {
+      "searchGuidance": "__MAP_TO_REAL_MCP_TOOL__",
+      "getDocument": "__MAP_TO_REAL_MCP_TOOL__",
+      "getApplicableGuidance": "__MAP_TO_REAL_MCP_TOOL__",
+      "getCapability": "__MAP_TO_REAL_MCP_TOOL__",
+      "getGoldenPath": "__MAP_TO_REAL_MCP_TOOL__",
+      "getExamples": "__MAP_TO_REAL_MCP_TOOL__"
+    }
+  },
+  "qualityCommands": [
+    {
+      "name": "format-check",
+      "command": "__CONFIGURE_PROJECT_COMMAND__",
+      "enabled": false
+    },
+    {
+      "name": "lint",
+      "command": "__CONFIGURE_PROJECT_COMMAND__",
+      "enabled": false
+    },
+    {
+      "name": "build",
+      "command": "__CONFIGURE_PROJECT_COMMAND__",
+      "enabled": false
+    },
+    {
+      "name": "unit-tests",
+      "command": "__CONFIGURE_PROJECT_COMMAND__",
+      "enabled": false
+    },
+    {
+      "name": "static-analysis",
+      "command": "__CONFIGURE_PROJECT_COMMAND__",
+      "enabled": false
+    }
+  ],
+  "evidence": {
+    "directoryName": "evidence",
+    "requiredPreReview": [
+      "quality-run.json",
+      "test-strategy-review.json",
+      "adversarial-review.json",
+      "spec-compliance.json",
+      "corporate-compliance.json",
+      "evidence-report.md"
+    ],
+    "requiredFinal": [
+      "independent-review.json"
+    ]
+  }
+}

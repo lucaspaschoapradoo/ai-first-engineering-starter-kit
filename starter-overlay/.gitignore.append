@@ -1,0 +1,8 @@
+# Corporate AI Engineering Starter Kit
+.claude/settings.local.json
+.ai-engineering/local/
+*.claude-debug.log
+# Do not commit local secrets
+.env
+.env.*
+!.env.example
